@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no"
+    />
+    <link
+      rel="shortcut icon"
+      href="./src/assets/clouds.png"
+      type="image/x-icon"
+    />
+
+    <!-- main CSS file -->
+    <link rel="stylesheet" href="./src/css/main.css" />
+
+    <title>Weather Forecast</title>
+  </head>
+
+  <body>
+    <main id="main">
+      <div class="change-location">
+        <img src="./src/assets/navigation_icon.png" alt="navigation_icon" />
+        <button id="change-location">Change Location</button>
+      </div>
+
+      <div class="loader"><span></span></div>
+
+      <div class="weather-section">
+        <div class="current-location"></div>
+
+        <div class="weather-icon"></div>
+
+        <div class="weather-description"></div>
+
+        <div class="temperature"></div>
+
+        <div class="humidity"></div>
+      </div>
+    </main>
+
+    <!-- JS file  -->
+    <script src="./src/js/index.js" defer type="module"></script>
+  </body>
+</html>
